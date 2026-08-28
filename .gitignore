@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (CIFAR-10 is downloaded into ./dataset at runtime)
+dataset/
+
+# Model checkpoints (only the final sample model is committed)
+*.pth
+!epoch_9_model.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
